@@ -1,5 +1,6 @@
 FROM ekidd/rust-musl-builder:latest as Builder
 
+ENV TEST=1
 
 # Copy project source code
 COPY . .
